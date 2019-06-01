@@ -9,4 +9,7 @@
 </p>
 
 <%= link_to 'Edit this mf', edit_article_path%>
+<%= link_to 'Delete this nephew', articles_path,
+            method: :delete,
+            data: { confirm: "You really gonna do this, huh?"} %>
 <%= link_to 'Back to the hizzouse', articles_path %>
